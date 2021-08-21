@@ -111,16 +111,16 @@ Python 命令行参数
 
 .. code-block:: bash
 
-    usage: ls.py [-h] [-l] [path]
+    usage: ls [-h] [-l] [path]
 
-    A simple command to show the list of files in target path
+    A ls command on windows
 
     positional arguments:
-      path        the path to show the files
+      path        the path to list files, default .
 
     optional arguments:
       -h, --help  show this help message and exit
-      -l          each one print in a new line
+      -l, --list  list per file in new line
 
 在 windows 下的 console 窗口中，能直接调用的是后缀名为 exe 的文件。只有 exe 才能全局调用。单纯编写 ls.py 可以在该文件所在的路径下直接通过 ``python ls.py`` 来使用命令行参数，想全局调用恐怕得用 ``python [ls.py path]`` 这种绝对路径的方式。
 
