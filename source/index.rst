@@ -1,10 +1,5 @@
-.. Python 笔记 documentation master file, created by
-   sphinx-quickstart on Sun Aug 22 02:27:33 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to Python 笔记's documentation!
-=======================================
+Python 笔记记录
+===============
 
 .. toctree::
    :maxdepth: 2
